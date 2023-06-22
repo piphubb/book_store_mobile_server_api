@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/post-free-server-api.iml" filepath="$PROJECT_DIR$/post-free-server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-store-server-api.iml" filepath="$PROJECT_DIR$/book-store-server-api.iml" />
     </modules>
   </component>
 </project>

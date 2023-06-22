@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dinsaren</groupId>
-    <artifactId>post-free-server-api</artifactId>
+    <artifactId>book-store-server-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>post-free-server-api</name>
     <packaging>war</packaging>
