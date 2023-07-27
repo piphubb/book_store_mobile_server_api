@@ -35,4 +35,10 @@ public class ProductController {
         log.info("Intercept get product by id {}", id);
         return new ResponseEntity<>(productService.getById(id), HttpStatus.OK);
     }
+    @PostMapping("/delete")
+    public ResponseEntity<Object> delete(@RequestBody Product req) {
+        log.info("Intercept delete product {}", req);
+        productService.delete(req);
+        return new ResponseEntity<>("Delete Product Success", HttpStatus.OK);
+    }
 }
